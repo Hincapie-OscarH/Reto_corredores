@@ -1,0 +1,70 @@
+/*General Styles*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  section {
+    width: 100%;
+  }
+  
+  /* Main Section*/
+  
+  .character-section {
+    text-align: justify;
+    /*margin-bottom: 20%;*/
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .card-character {
+    padding-left: 3%;
+    padding-right: 20%;
+    margin: 4%;
+    margin-bottom: 11.5%;
+    -webkit-box-shadow: 10px 14px 24px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 24px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
+  }
+  
+  
+  .info-character {
+        padding: 16px;
+        margin-bottom: 2.5%;
+    }
+  
+  .sub{
+    width: 120%;
+  }
+  
+  .sub:hover {
+    border-radius: 3%;
+  }
+  
+  
+  .div-general {
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .tit1{
+    text-align: center;
+  }
+  
+  .btn{
+    margin-left: 475px;
+  }
+  
+  
+  

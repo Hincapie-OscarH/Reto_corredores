@@ -17,13 +17,13 @@ function Ejecutar(){
     }
     else if(time1int < time2int){
         swal({
-            text: `Nombre: ${nombre1} \nEdad: ${age1} \nTiempo 1/4 milla: ${time1}`,
+            text: `Nombre: ${nombre1} \nEdad: ${age1} \nTiempo 1/4 milla: ${time1} segundos`,
             icon: "success",
           });
     }
     else if (time1int > time2int){
         swal({
-            text: `Nombre: ${nombre2} \nEdad: ${age2} \nTiempo 1/4 milla: ${time2}`,
+            text: `Nombre: ${nombre2} \nEdad: ${age2} \nTiempo 1/4 milla: ${time2} segundos`,
             icon: "success",
           });
     }
